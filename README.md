@@ -17,7 +17,7 @@ Comparative study of four deep RL algorithms on the MuJoCo **HalfCheetah-v5** co
 
 - **Final reward**: mean over the last 10% of evaluation checkpoints across 3 seeds
 - **AUC**: area under the smoothed learning curve, normalized to the global best
-- **Steps to X%**: sample efficiency — timesteps needed to reach X% of the best algorithm's final reward
+- **Steps to X%**: sample efficiency - timesteps needed to reach X% of the best algorithm's final reward
 - **Seed CV**: coefficient of variation across seeds (lower = more reproducible)
 
 Off-policy algorithms (SAC, TD3, DDPG) substantially outperform on-policy PPO on this task. SAC achieves the highest stable final performance; DDPG reaches the highest peak reward but with much higher variance across seeds.
